@@ -1,0 +1,207 @@
+
+
+#stationAdd {
+    height: 600px;
+}
+#stationAdd h2{
+    width: 170px;
+
+margin: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+ font-family: sans-serif;
+
+
+}
+#stationAdd input{
+   width: 170px;
+    margin: auto;
+    margin-bottom: 10px;
+  
+
+}
+#stationAdd input::placeholder{
+    font-family: 'Shantell Sans', cursive;
+    font-size: 13px;
+ 
+    
+}
+#stationAdd button{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 170px;
+    height: 40px;
+    border-radius: 7px;
+    transition: 0.7s;
+    background-color: rgba(209, 192, 160, 0.705);
+    font-family: 'Shantell Sans', cursive;
+}
+#stationAdd button:hover{
+    width: 180px;
+    height: 43px;
+     margin-top: 37px;
+
+}
+
+
+.Add{
+    width: 400px;
+    height: 580px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: rgba(205, 199, 199, 0.625);
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.563);
+    margin: 20px 20px 20px 20px;
+    transition: 0.9s;
+}
+.Add:hover{
+    width: 410px;
+    height: 580px;
+    margin: 10px 20px 20px 20px;
+    box-shadow: 5px 5px 9px  rgba(0, 0, 0, 0.563);
+}
+#box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#stationremove{
+
+    padding-top: 20px;
+    font-family: sans-serif;
+    position: relative;
+
+}
+#stationremove h2{
+    text-align: center;
+ 
+
+}
+#pler p{
+    text-align: center;
+  
+    border-bottom: 1px solid rgb(62, 58, 58)
+ 
+  
+
+}
+#pler{
+   
+    width: 300px;
+   margin: auto;
+    
+}
+
+
+#stationremove p::after{
+    content: '  ✔';
+}
+
+#stationremove p:focus{
+  background-color: rgba(128, 128, 128, 0.575);
+ 
+}
+
+label{
+    width: 110px;
+    font-family: 'Shantell Sans', cursive;
+    margin-left: -13px;
+    margin-top: 4px;
+    
+}
+#stationpasif{
+
+    padding-top: 20px;
+    font-family: sans-serif;
+    position: relative;
+
+}
+#stationpasif h2{
+    text-align: center;
+ 
+
+}
+#plerpasif p{
+    text-align: center;
+  
+    border-bottom: 1px solid rgb(62, 58, 58)
+ 
+  
+
+}
+#plerpasif{
+   
+    width: 300px;
+   margin: auto;
+   margin-top: 20px;
+    
+}
+
+
+#stationpasif p::after{
+    content: '  ❌';
+}
+
+#stationpasif p:focus{
+  background-color: rgba(128, 128, 128, 0.575);
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+#remowebtn{
+   position: absolute;
+   bottom: 50px;
+   left: 32%;
+   width: 170px;
+    height: 40px;
+    border-radius: 7px;
+    transition: 0.7s;
+    background-color: rgba(209, 192, 160, 0.705);
+    font-family: 'Shantell Sans', cursive;
+}
+.form{
+    width: 275px;
+    margin: auto;
+    display: none;
+}
+.hidden {
+    display: block;
+  }
+#goster{
+
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 170px;
+    height: 40px;
+    border-radius: 7px;
+    transition: 0.7s;
+    background-color: rgba(209, 192, 160, 0.705);
+    font-family: 'Shantell Sans', cursive;
+
+}
+#pasifbtn{
+    position: absolute;
+    bottom: 50px;
+    left: 32%;
+    width: 170px;
+     height: 40px;
+     border-radius: 7px;
+     transition: 0.7s;
+     background-color: rgba(209, 192, 160, 0.705);
+     font-family: 'Shantell Sans', cursive;
+ }
+

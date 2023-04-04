@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background-color: rgba(239, 246, 245, 0.64);
+}
+.tick line {
+    stroke: #dcdcdb;
+}
+.xlabel{
+
+font-size: 1.5em;
+fill: #666666;
+stroke-linejoin: round;
+ stroke-linecap: round;
+ text-anchor: start;
+
+
+}
+.yaxiss{
+ 
+    font-size: 1.5em;
+    fill: #666666;
+    
+
+}
+.yaxis{
+ 
+    font-size: 0.1em;
+
+    stroke:rgba(239, 246, 245, 0.64);
+    
+
+}
+#my_dataviz{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+   .rred{
+    border: 1px solid black;
+   }
+
+   .overlay {
+    fill: none;
+    pointer-events: all;
+   
+  }
+  
+  .focus circle {
+    fill: #F1F3F3;
+    stroke: #777;
+    stroke-width: 3px;
+   
+  }
+    
+  .hover-line {
+    stroke: #3e3d3d;
+    stroke-width: 2px;
+   
+  }
+
+  .load{
+    width: 40px;
+    height: 40px;
+    
+    
+    border-radius: 50%;
+ 
+    border: 10px solid transparent;
+    border-top:10px ridge rgb(8, 8, 8) ;
+    border-left:10px ridge rgb(9, 9, 9) ;
+    animation: kenarlik 0.7s linear  infinite;
+    
+}
+@keyframes kenarlik{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+#loading{
+    position: absolute;
+    top: 45%;
+    left: 48%;
+    display: none;
+}
+#loading p{
+    font-size: 18px;
+
+}
+.detayd{
+   font-weight: 100;
+   font-family: sans-serif;
+}
+.detayp{
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 18px;
+ }
+.simar{
+    text-align: left;
+    border: 1px solid rgba(255, 0, 0, 0.586);
+    padding: 10px;
+    background-color: rgba(160, 158, 158, 0.723);
+    border-radius: 15px;
+}
+.simar span{
+    font-weight: bold;
+    font-family: sans-serif;
+    color: brown;
+}
+#prop_form{
+    width: 1200px;
+    height: 70px;
+    border-radius: 30px;
+    border: 1px solid rgba(70, 70, 70, 0.704);
+    margin: auto;
+    margin-top:50px;
+    background-color: #f7f2f271;
+    display: flex;
+}
+.order{
+    width: 80px;
+    height: 25px;
+    margin: 20px 15px 15px 0;
+    font-family: 'Shantell Sans', cursive;
+    padding-left: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+form span{
+    margin: 22px 2px 0 5px;
+    font-family: 'Shantell Sans', cursive;
+}
+#btn{
+    height: 30px;
+    width: 85px;
+    margin: 20px 10px 15px 10px;
+    font-family: 'Shantell Sans', cursive;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.6s
+ 
+}
+#btn:hover{
+    margin: 17px 15px 13px 10px;
+    height: 33px;
+    width: 88px; 
+    box-shadow: 3px 3px 4px rgba(135, 134, 134, 0.566);
+}
+.navbar{
+    min-width: 100vw;
+    height: 100px;
+    background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
+    display: flex;
+    
+}
+.dh{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    line-height: 100px;
+    margin-left: 50px;
+    width: 150px;
+
+  
+}
+.gz{
+    font-size: 24px;
+    color: rgb(0, 255, 0);
+    font-weight: bold;
+    font-family: 'Kanit', sans-serif;
+    line-height: 100px;
+   margin: auto;
+   min-width: 700px;
+}
+.baslikd3{
+    text-align: center;
+    stroke: black;
+    font-size: 20px;
+    font-family: 'Shantell Sans', cursive;
+ 
+
+    
+}

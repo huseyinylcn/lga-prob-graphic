@@ -1,0 +1,119 @@
+<div id="box">
+
+    <div id="stationremove" class="Add">
+              <button id="goster">
+          Station Information
+        </button>
+       <h2>Registered Station</h2>
+    <div id="pler">
+        
+    </div>
+  
+<button id="remowebtn">
+            Make Passive
+        </button>
+  
+     
+        
+    </div>
+
+    <div id="stationAdd" class="Add">
+        <button id="formbtn">New Station</button>
+      <div class="form">
+  <label >Station Code:</label>
+<input type="text" placeholder="Station Code" id="kod">
+<br>
+<label >Latitude:</label>
+    <input type="text" placeholder="Latitude" id="enlem">
+<br>
+<label >Longitude:</label>
+    <input type="text" placeholder="Longitude" id="boylam">
+<br>
+<label >Address:</label>
+    <input type="text" placeholder="Address" id="adres">
+<br>
+<label >Responsible:</label>
+    <input type="text" placeholder="Responsible" id="sorumlu">
+<br>
+<label >ip:</label>
+    <input type="text" placeholder="ip" id="ip">
+<br>
+<label >Council:</label>
+    <input type="text" placeholder="Council" id="belediye">
+<br>
+<label >Password:</label>
+    <input type="text" placeholder="Password" id="password">
+<br>
+<label >Province:</label>
+    <input type="text" placeholder="Province" id="il">
+<br>
+<label >District:</label>
+    <input type="text" placeholder="District" id="ilce">
+<br>
+<label >District:</label>
+    <input type="text" placeholder="District" id="semt">
+<br>
+    <button type="submit" id="btnn">Add</button>
+      </div>
+    
+    
+    </div>
+
+    <div id="stationpasif" class="Add">
+        <h2>Passive Station</h2>
+        <div id="plerpasif">
+
+        </div>
+
+        <button id="pasifbtn">
+            Make Active
+        </button>
+    </div>
+
+</div>
+
+    
+
+
+
+
+
+
+
+ <script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-firestore.js"></script>
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyDct6Llp5nINGWnp6t-NBsxWin1riyccig",
+            authDomain: "aglsistem-71590.firebaseapp.com",
+            databaseURL: "https://aglsistem-71590-default-rtdb.firebaseio.com",
+            projectId: "aglsistem-71590",
+            storageBucket: "aglsistem-71590.appspot.com",
+            messagingSenderId: "510994901595",
+            appId: "1:510994901595:web:c12a5b74517b3a2c4ced7e",
+            measurementId: "G-MFWNV461CE"
+          };
+          
+          firebase.initializeApp(firebaseConfig);
+          const db = firebase.firestore();
+          db.settings({ timestampsInSnapshots: true });
+    </script>
+
+ <script src="js/loginstation.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
